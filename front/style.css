@@ -1,0 +1,87 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'URW Chancery L', cursive
+}
+body{
+    height: 100vh;
+    background: linear-gradient(140deg, rgba(235, 252, 142, 0.788), rgb(16, 237, 245));
+}
+.wrapper{
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.search_box{
+	background: #5681b3;
+	position: relative;
+	padding: 15px;
+	border-radius: 50px;
+	display: flex;
+}
+ .card-header h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 5px black;
+    padding-bottom: 50px;
+	text-align: center;
+	font-size: 2.6em;
+}
+
+.search_box .search_btn{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #7faaeb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.search_box .input_search{
+    
+	outline: none;
+	border: 0;
+	background: #7faaeb;
+	border-radius: 50px;
+	padding: 15px 20px;
+	width: 300px; 
+	height: 50px;
+	color: #fff;
+	font-size: 1.3em;
+}
+
+::placeholder {
+  color: #fff;
+  
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+
+}
+.card-header .box-content{
+	margin-top: 20px;
+	border-radius: 50px;
+	background: #5681b3;
+	display: flex;
+	color: #fff;
+	padding: 15px 20px;	
+}
+
+.box-content:hover{
+	background-color:#7faaeb;
+	cursor: pointer;
+}
